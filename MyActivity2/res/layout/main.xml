@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" >
+        
+    <EditText
+        android:id="@+id/textBox"
+        android:layout_alignParentTop= "true"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:hint="Destination"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+    />
+       
+    <fragment
+            class="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textBox"
+    />
+    <Button
+        android:id="@+id/clearMapButton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_above="@id/map"
+    	android:layout_alignParentBottom="true"
+    	android:text="Clear"	
+    /> 
+</RelativeLayout>
+

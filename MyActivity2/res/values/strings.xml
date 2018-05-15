@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CyclNav</string>
+    <string name="Destination">Destination</string>
+    <string name="Clear">Clear</string>
+    <string name="bluetooth">Bluetooth</string>
+    
+    <!-- Routing Strings -->
+    <string name="route_init">Routing Initialize</string>
+    <string name="route_failed">Routing failed</string>
+     
+    <string name="nav_right">Right Turn</string>
+    <string name="nav_left">Left Turn</string>
+    <string name="nav_ramp_right">Ramp Right</string>
+    <string name="nav_ramp_left">Ramp Left</string>
+    <string name="nav_arrived">Arrived at destination</string>
+    <string name="nav_missed">Missed Signal</string>
+    <string name="nav_init">Initialize Signal</string>
+     
+     <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+     
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+ 
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+ 
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>
